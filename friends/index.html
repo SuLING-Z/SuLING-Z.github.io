@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="zh-CN,en,zh-HK,zh-TW,default">
-    <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0.alpha.0'>
+    <head>
   <meta name="generator" content="Hexo 5.4.0">
   <meta charset="utf-8">
+  <meta name="robots" content="noarchive">
+
   <!-- SEO相关 -->
   
   <link rel="canonical" href="http://example.com/friends/"/>
+  
+  
   <!-- 渲染优化 -->
   <meta http-equiv='x-dns-prefetch-control' content='on' />
-  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="nosniff">
   <meta name="HandheldFriendly" content="True" >
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -20,9 +22,10 @@
   <meta content="SuLING" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/css/style.css?time=1629126619346" as="style">
+  <link rel="preload" href="/css/style.css?time=1643230488703" as="style">
+
   <!-- 页面元数据 -->
-  <title>我的朋友们 - SuLING</title>
+    <title>我的朋友们 - SuLING</title>
   <meta name="keywords" content="null">
   <meta name="description" content="这里写友链上方的内容。">
 <meta property="og:type" content="website">
@@ -84,21 +87,105 @@
   src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Monaco';
-  src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/Monaco/Monaco.ttf");
-  font-weight: 'normal';
-  font-style: 'normal';
-  font-display: swap;
 }
 @font-face {
   font-family: 'Varela Round';
   src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
-  font-display: swap;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-ExtraLight.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-ExtraLight-Italic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Light.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Light-Italic.woff2") format("woff2");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-SemiLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-SemiLight-Italic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMonoItalic;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Medium-Italic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Bold-Italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-ExtraBold.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-ExtraBold-Italic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+.new-meta-box,
+.article-title,
+.prev-next,
+.meta-v3,
+.md .footer .header,
+.widget header,
+details summary {
+  font-family: "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Helvetica, monospace;
 }
 :root {
   --site-bg: #f8f8f8;
@@ -136,18 +223,21 @@ body[theme='dark'] {
   --color-card: #fff;
   --color-text: #444;
   --color-block: #f6f6f6;
-  --color-inlinecode: #d56d28;
+  --color-inlinecode: #c74f00;
   --color-codeblock: #fff7ea;
-  --color-h1: #444;
-  --color-h2: #444;
-  --color-h3: #444;
+  --color-h1: #3a3a3a;
+  --color-h2: #3a3a3a;
+  --color-h3: #333;
   --color-h4: #444;
-  --color-h5: #444;
-  --color-h6: #444;
+  --color-h5: #555;
+  --color-h6: #666;
   --color-p: #444;
   --color-list: #666;
   --color-list-hl: #36ac91;
   --color-meta: #888;
+  --color-read-bkg: #e0d8c8;
+  --color-read-post: #f8f1e2;
+  --color-white-png: #fff;
 }
 * {
   box-sizing: border-box;
@@ -159,7 +249,7 @@ html {
   color: var(--color-text);
   width: 100%;
   height: 100%;
-  font-family: UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
   font-size: 16px;
 }
 html >::-webkit-scrollbar {
@@ -672,6 +762,7 @@ th {
   font-size: 3.125rem;
   line-height: 1.2;
   text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  text-align: center;
 }
 .cover-wrapper .cover-body .subtitle {
   font-size: 20px;
@@ -1107,7 +1198,7 @@ th {
 }
 .l_header .nav-sub .title {
   font-weight: bold;
-  font-family: UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
   line-height: 1.2;
   max-height: 64px;
   white-space: normal;
@@ -1382,7 +1473,6 @@ ul.list-v >li>a {
   display: block;
   color: var(--color-list);
   font-size: 0.875rem;
-  font-weight: bold;
   line-height: 36px;
   padding: 0 20px 0 16px;
   text-overflow: ellipsis;
@@ -1593,6 +1683,7 @@ ul.list-v >li>a:hover {
   .l_header #wrapper .switcher {
     display: flex;
     margin-right: 8px;
+    height: 64px;
   }
   .l_header .menu {
     display: none;
@@ -1938,10 +2029,98 @@ ul.list-v >li>a:hover {
   background: rgba(0,0,0,0.7);
   z-index: 1;
 }
+@media screen and (max-width: 2048px) {
+  .l_header {
+    left: 0 !important;
+    border-radius: 0 !important;
+    max-width: 100% !important;
+  }
+}
+article > p {
+  line-height: 2 !important;
+}
+@media screen and (max-width: 500px) {
+  #safearea {
+    margin: 0;
+    box-shadow: none;
+  }
+  #safearea .body-wrapper {
+    padding: 0;
+  }
+  #safearea #l_main article#comments,
+  #safearea #l_main article#friends,
+  #safearea #l_main article#post,
+  #safearea #l_main article#page,
+  #safearea #l_main article#arc {
+    border-radius: 0;
+  }
+  #safearea #l_main article#cat,
+  #safearea #l_main article#tag {
+    margin: 0;
+    border-radius: 0;
+  }
+  #safearea #l_main .post-wrapper {
+    margin: 0 0 16px;
+  }
+  #safearea #l_main .post-wrapper .post {
+    border-radius: 0;
+  }
+  #safearea #l_side .widget.mobile {
+    border-radius: 0;
+  }
+}
+.iconfont {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.iconfont.emoji {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.3em;
+}
+.rem1p5 {
+  font-size: 1.5rem;
+}
+.rem2 {
+  font-size: 2rem;
+}
+.rem6 {
+  font-size: 6rem;
+}
+.rem12 {
+  font-size: 12rem;
+}
 
   </style>
-  <link rel="stylesheet" href="/css/style.css?time=1629126619346" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css?time=1629126619346"></noscript>
+  <link rel="stylesheet" href="/css/style.css?time=1643230488703" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css?time=1643230488703"></noscript>
+  <script>
+    
+    document.addEventListener("error", function(e) {
+      const elem = e.target;
+      const parentElem = e.target.parentElement;
+      const parentElemClass = parentElem.classList.toString();
+      const pParentElemClass = parentElem.parentElement.classList.toString();
+      if (elem.tagName.toLowerCase() !== 'img') {
+          return;
+      }
+      elem.classList.add('fix-cursor-default', 'error');
+      if(parentElemClass === 'fancybox' && pParentElemClass === 'fancybox') {
+        parentElem.parentElement.classList.add('hideFancybox');
+        parentElem.parentElement.classList.remove('fancybox');
+        parentElem.classList.remove('fancybox');
+      } else if(parentElemClass === 'img-bg' && pParentElemClass === 'img-wrap') {
+        parentElem.parentElement.classList.add('hideFancybox');
+      } else if(parentElemClass === 'author') {
+        parentElem.parentElement.classList.add('fix-author-imgError');
+      } else if(parentElemClass.indexOf('tk-avatar') != -1 ) {
+        parentElem.parentElement.classList.add('fix-avatar-imgError');
+      }
+    }, true);
+    </script>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -1993,28 +2172,32 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <!-- Custom Files head end-->
 </head>
   <body>
-    <header id="l_header" class="l_header auto shadow floatable show" style='opacity: 0' >
+    <header id="l_header" class="l_header auto shadow blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
-      <p class="title"></p>
+      <p class="title fix-header-title"></p>
       <ul class='switcher nav-list-h m-phone' id="pjax-header-nav-list">
-        <li><a id="s-comment" class="fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        <li><a id="s-comment" class="fal fa-comment-lines fa-fw" target="_self" href='javascript:void(0)'></a></li>
         
-          <li><a id="s-toc" class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+          <li><a id="s-toc" class="s-toc fal fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
         
       </ul>
     </div>
 		<div class="nav-main">
       
         
-        <a class="title flat-box" target="_self" href='/'>
+        <a id="desktopNavTitle" class="title flat-box" target="_self" href='/'>
+          
+            <img no-lazy class='logo' src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png'/>
           
           
           
         </a>
+        <a id="githubEmoji" class="title flat-box" style="display: none;" target="_self" href='/'>
+          <svg class="profile-color-modes" height="45" viewBox="0 0 106 60" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><g class="profile-color-modes-illu-group profile-color-modes-illu-red"><path d="M37.5 58.5V57.5C37.5 49.768 43.768 43.5 51.5 43.5V43.5C59.232 43.5 65.5 49.768 65.5 57.5V58.5"></path></g><g class="profile-color-modes-illu-group profile-color-modes-illu-orange"><path d="M104.07 58.5C103.401 55.092 97.7635 54.3869 95.5375 57.489C97.4039 54.6411 99.7685 48.8845 94.6889 46.6592C89.4817 44.378 86.1428 50.1604 85.3786 54.1158C85.9519 50.4768 83.7226 43.294 78.219 44.6737C72.7154 46.0534 72.7793 51.3754 74.4992 55.489C74.169 54.7601 72.4917 53.3567 70.5 52.8196"></path></g><g class="profile-color-modes-illu-group profile-color-modes-illu-purple"><path d="M5.51109 58.5V52.5C5.51109 41.4543 14.4654 32.5 25.5111 32.5C31.4845 32.5 36.8464 35.1188 40.5111 39.2709C40.7212 39.5089 40.9258 39.7521 41.1245 40"></path><path d="M27.511 49.5C29.6777 49.5 28.911 49.5 32.511 49.5"></path><path d="M27.511 56.5C29.6776 56.5 26.911 56.5 30.511 56.5"></path></g><g class="profile-color-modes-illu-group profile-color-modes-illu-green"><circle cx="5.5" cy="12.5" r="4"></circle><circle cx="18.5" cy="5.5" r="4"></circle><path d="M18.5 9.5L18.5 27.5"></path><path d="M18.5 23.5C6 23.5 5.5 23.6064 5.5 16.5"></path></g><g class="profile-color-modes-illu-group profile-color-modes-illu-blue"><g class="profile-color-modes-illu-frame"><path d="M40.6983 31.5C40.5387 29.6246 40.6456 28.0199 41.1762 27.2317C42.9939 24.5312 49.7417 26.6027 52.5428 30.2409C54.2551 29.8552 56.0796 29.6619 57.9731 29.6619C59.8169 29.6619 61.5953 29.8452 63.2682 30.211C66.0833 26.5913 72.799 24.5386 74.6117 27.2317C75.6839 28.8246 75.0259 33.7525 73.9345 37.5094C74.2013 37.9848 74.4422 38.4817 74.6555 39"></path></g><g class="profile-color-modes-illu-frame"><path d="M41.508 31.5C41.6336 31.2259 41.7672 30.9582 41.9085 30.6968C40.7845 26.9182 40.086 21.8512 41.1762 20.2317C42.9939 17.5312 49.7417 19.6027 52.5428 23.2409C54.2551 22.8552 56.0796 22.6619 57.9731 22.6619C59.8169 22.6619 61.5953 22.8452 63.2682 23.211C66.0833 19.5913 72.799 17.5386 74.6117 20.2317C75.6839 21.8246 75.0259 26.7525 73.9345 30.5094C75.1352 32.6488 75.811 35.2229 75.811 38.2283C75.811 38.49 75.8058 38.7472 75.7957 39"></path><path d="M49.4996 33V35.6757"></path><path d="M67.3375 33V35.6757"></path></g><g class="profile-color-modes-illu-frame"><path d="M41.508 31.5C41.6336 31.2259 41.7672 30.9582 41.9085 30.6968C40.7845 26.9182 40.086 21.8512 41.1762 20.2317C42.9939 17.5312 49.7417 19.6027 52.5428 23.2409C54.2551 22.8552 56.0796 22.6619 57.9731 22.6619C59.8169 22.6619 61.5953 22.8452 63.2682 23.211C66.0833 19.5913 72.799 17.5386 74.6117 20.2317C75.6839 21.8246 75.0259 26.7525 73.9345 30.5094C75.1352 32.6488 75.811 35.2229 75.811 38.2283C75.811 38.49 75.8058 38.7472 75.7957 39"></path></g><g class="profile-color-modes-illu-frame"><path d="M41.508 31.5C41.6336 31.2259 41.7672 30.9582 41.9085 30.6968C40.7845 26.9182 40.086 21.8512 41.1762 20.2317C42.9939 17.5312 49.7417 19.6027 52.5428 23.2409C54.2551 22.8552 56.0796 22.6619 57.9731 22.6619C59.8169 22.6619 61.5953 22.8452 63.2682 23.211C66.0833 19.5913 72.799 17.5386 74.6117 20.2317C75.6839 21.8246 75.0259 26.7525 73.9345 30.5094C75.1352 32.6488 75.811 35.2229 75.811 38.2283C75.811 38.49 75.8058 38.7472 75.7957 39"></path><path d="M49.4996 33V35.6757"></path><path d="M67.3375 33V35.6757"></path></g><g class="profile-color-modes-illu-frame"><path d="M41.508 31.5C41.6336 31.2259 41.7672 30.9582 41.9085 30.6968C40.7845 26.9182 40.086 21.8512 41.1762 20.2317C42.9939 17.5312 49.7417 19.6027 52.5428 23.2409C54.2551 22.8552 56.0796 22.6619 57.9731 22.6619C59.8169 22.6619 61.5953 22.8452 63.2682 23.211C66.0833 19.5913 72.799 17.5386 74.6117 20.2317C75.6839 21.8246 75.0259 26.7525 73.9345 30.5094C75.1352 32.6488 75.811 35.2229 75.811 38.2283C75.811 38.49 75.8058 38.7472 75.7957 39"></path></g><g class="profile-color-modes-illu-frame"><path d="M41.508 31.5C41.6336 31.2259 41.7672 30.9582 41.9085 30.6968C40.7845 26.9182 40.086 21.8512 41.1762 20.2317C42.9939 17.5312 49.7417 19.6027 52.5428 23.2409C54.2551 22.8552 56.0796 22.6619 57.9731 22.6619C59.8169 22.6619 61.5953 22.8452 63.2682 23.211C66.0833 19.5913 72.799 17.5386 74.6117 20.2317C75.6839 21.8246 75.0259 26.7525 73.9345 30.5094C75.1352 32.6488 75.811 35.2229 75.811 38.2283C75.811 38.49 75.8058 38.7472 75.7957 39"></path><path d="M49.4996 33V35.6757"></path><path d="M67.3375 33V35.6757"></path></g><g class="profile-color-modes-illu-frame"><path d="M73.4999 40.2236C74.9709 38.2049 75.8108 35.5791 75.8108 32.2283C75.8108 29.2229 75.1351 26.6488 73.9344 24.5094C75.0258 20.7525 75.6838 15.8246 74.6116 14.2317C72.7989 11.5386 66.0832 13.5913 63.2681 17.211C61.5952 16.8452 59.8167 16.6619 57.973 16.6619C56.0795 16.6619 54.2549 16.8552 52.5427 17.2409C49.7416 13.6027 42.9938 11.5312 41.176 14.2317C40.0859 15.8512 40.7843 20.9182 41.9084 24.6968C41.003 26.3716 40.4146 28.3065 40.2129 30.5"></path><path d="M82.9458 30.5471L76.8413 31.657"></path><path d="M76.2867 34.4319L81.8362 37.7616"></path><path d="M49.4995 27.8242V30.4999"></path><path d="M67.3374 27.8242V30.4998"></path></g><g class="profile-color-modes-illu-frame"><path d="M45.3697 34.2658C41.8877 32.1376 39.7113 28.6222 39.7113 23.2283C39.7113 20.3101 40.3483 17.7986 41.4845 15.6968C40.3605 11.9182 39.662 6.85125 40.7522 5.23168C42.5699 2.53117 49.3177 4.6027 52.1188 8.24095C53.831 7.85521 55.6556 7.66186 57.5491 7.66186C59.3929 7.66186 61.1713 7.84519 62.8442 8.21095C65.6593 4.59134 72.375 2.5386 74.1877 5.23168C75.2599 6.82461 74.6019 11.7525 73.5105 15.5094C74.7112 17.6488 75.3869 20.2229 75.3869 23.2283C75.3869 28.6222 73.2105 32.1376 69.7285 34.2658C70.8603 35.5363 72.6057 38.3556 73.3076 40"></path><path d="M49.0747 19.8242V22.4999"></path><path d="M54.0991 28C54.6651 29.0893 55.7863 30.0812 57.9929 30.0812C59.0642 30.0812 59.8797 29.8461 60.5 29.4788"></path><path d="M66.9126 19.8242V22.4999"></path><path d="M33.2533 20.0237L39.0723 22.1767"></path><path d="M39.1369 25.0058L33.0935 27.3212"></path><path d="M81.8442 19.022L76.0252 21.1751"></path><path d="M75.961 24.0041L82.0045 26.3196"></path></g><g class="profile-color-modes-illu-frame"><path d="M73.4999 40.2236C74.9709 38.2049 75.8108 35.5791 75.8108 32.2283C75.8108 29.2229 75.1351 26.6488 73.9344 24.5094C75.0258 20.7525 75.6838 15.8246 74.6116 14.2317C72.7989 11.5386 66.0832 13.5913 63.2681 17.211C61.5952 16.8452 59.8167 16.6619 57.973 16.6619C56.0795 16.6619 54.2549 16.8552 52.5427 17.2409C49.7416 13.6027 42.9938 11.5312 41.176 14.2317C40.0859 15.8512 40.7843 20.9182 41.9084 24.6968C41.003 26.3716 40.4146 28.3065 40.2129 30.5"></path><path d="M82.9458 30.5471L76.8413 31.657"></path><path d="M76.2867 34.4319L81.8362 37.7616"></path><path d="M49.4995 27.8242V30.4999"></path><path d="M67.3374 27.8242V30.4998"></path></g><g class="profile-color-modes-illu-frame"><path d="M40.6983 31.5C40.5387 29.6246 40.6456 28.0199 41.1762 27.2317C42.9939 24.5312 49.7417 26.6027 52.5428 30.2409C54.2551 29.8552 56.0796 29.6619 57.9731 29.6619C59.8169 29.6619 61.5953 29.8452 63.2682 30.211C66.0833 26.5913 72.799 24.5386 74.6117 27.2317C75.6839 28.8246 75.0259 33.7525 73.9345 37.5094C74.2013 37.9848 74.4422 38.4817 74.6555 39"></path></g></g></svg>
+        </a>
       
-
 			<div class='menu navigation'>
 				<ul class='nav-list-h m-pc'>
           
@@ -2118,20 +2301,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 				</ul>
 			</div>
-
       <div class="m_search">
         <form name="searchform" class="form u-search-form">
-          <i class="icon fas fa-search fa-fw"></i>
-          <input type="text" class="input u-search-input" placeholder="搜索" />
+          <i class="icon fal fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search..." />
         </form>
       </div>
 
 			<ul class='switcher nav-list-h m-phone'>
 				
-					<li><a class="s-search fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+					<li><a class="s-search fal fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
 				
 				<li>
-          <a class="s-menu fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a>
+          <a class="s-menu fal fa-bars fa-fw" target="_self" href='javascript:void(0)'></a>
           <ul class="menu-phone list-v navigation white-box">
             
               
@@ -2247,28 +2429,12 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-        <div id="none" class='cover-wrapper friends dock' style="display: none;">
+        <div id="none" class='cover-wrapper friends blank' style="display: none;">
           
             <div class='cover-bg lazyload placeholder' data-bg="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture"></div>
           
-          <div class='cover-body'>
-  <div class='top'>
-    
-    
-      <p class="title">Volantis</p>
-    
-    
-  </div>
-  <div class='bottom'>
-    <div class='menu navigation'>
-      <div class='list-h'>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-          <div id="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+          
+          <div id="scroll-down" style="display: none;"><i class="fal fa-ship scroll-down-effects"></i></div>
         </div>
     
   
@@ -2287,7 +2453,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
     
-      <h1 class="title">
+      <h1 class="title allow-select">
         我的朋友们
       </h1>
       <div class='new-meta-box'>
@@ -2325,7 +2491,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
       <div id="lc-pv" data-title="我的朋友们" data-path="/friends/">
         <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
-        <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+        <span id='number'><i class="fal fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
         次浏览
       </div>
     </a>
@@ -2344,16 +2510,31 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
     <p>这里写友链上方的内容。</p>
     
+      
+        <div class='friends-group'>
+          <br>
+          <h2 class='friend-header'>
+            
+          </h2>
+          
+          
+            <div class='friend-content' id="friend-content-0">
+              
+                
+              
+                
+              
+              <br><br>
+            </div>
+          
+        </div>
+      
+    
     <br><br>
     <p>这里可以写友链页面下方的文字备注，例如自己的友链规范、示例等。</p>
-    
-
-
-  <div class='article-meta' id="bottom">
-    <div class='new-meta-box'>
-      
-        
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-08-16T18:58:19+08:00">
+    <div class='article-meta' id="bottom">
+      <div class='new-meta-box'>
+        <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-08-16T18:58:19+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2021年8月16日</p>
@@ -2361,78 +2542,39 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </div>
 
         
+  <div class="new-meta-item browse leancloud">
+    <a class='notlink'>
       
-        
-          
-
-        
-      
-        
-          
-  <div class="new-meta-item share -mob-share-list">
-  <div class="-mob-share-list share-body">
-    
-      
-        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
-          
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/friends/index.html&title=我的朋友们 - SuLING&summary=这里写友链上方的内容。"
-          
-          >
-          
-            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
-          
-        </a>
-      
-    
-      
-        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
-          
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/friends/index.html&title=我的朋友们 - SuLING&summary=这里写友链上方的内容。"
-          
-          >
-          
-            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
-          
-        </a>
-      
-    
-      
-        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
-          
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/friends/index.html&title=我的朋友们 - SuLING&summary=这里写友链上方的内容。"
-          
-          >
-          
-            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
-          
-        </a>
-      
-    
-      
-    
-      
-    
+      <div id="lc-pv" data-title="我的朋友们" data-path="/friends/">
+        <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+        <span id='number'><i class="fal fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+        次浏览
+      </div>
+    </a>
   </div>
-</div>
 
 
-
-        
-      
+      </div>
     </div>
-    <!-- Custom Files bottomMeta begin -->
-    
-    <!-- Custom Files bottomMeta end -->
-  </div>
-
-
   </article>
 
   
 
   
   <article class="post white-box reveal shadow" id="comments">
-    <p ct><i class='fas fa-comments'></i> 评论</p>
+    <div class="changeComment">
+      <div class="comment-headline">
+        <p ct>
+          <span><i class='fas fa-comments'></i> 评论</span>
+        </p>
+        
+      </div>
+      <div class="comment-switch not-select" style="display: none;">
+        <span class="first-comment">Twikoo</span>
+        <span class="switch-btn move cur-pointer" id="switchBtn"></span>
+        <span class="second-comment">Beaudar</span>
+      </div>
+    </div>
     
 
     
@@ -2450,7 +2592,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 </div>
-<aside id='l_side'>
+<aside id='l_side' class="not-select default-cursor">
   
   
     
@@ -2536,7 +2678,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         本站使用
-        <a href="https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0.alpha.0" target="_blank" class="codename">Volantis</a>
+        <a href="https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0.alpha.1" target="_blank" class="codename">Volantis</a>
         作为主题
       
     
@@ -2553,10 +2695,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </footer>
 
 
-        <a id="s-top" class="fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+        <a id="s-top" class="fal fa-arrow-up fa-fw" href="javascript:void(0)"></a>
       </div>
     </div>
     <div>
+      <div id="BKG" class="content-in"></div>
       <script>
   /************这个文件存放不需要重载的全局变量和全局函数*********/
   window.volantis = {}; // volantis 全局变量
@@ -2738,7 +2881,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.js = (src, cb) => {
     return new Promise(resolve => {
       setTimeout(function () {
-        var HEAD = document.getElementsByTagName("head")[0] || document.documentElement;
+        var HEAD = document.getElementsByTagName("body")[0] || document.documentElement;
         var script = document.createElement("script");
         script.setAttribute("type", "text/javascript");
         if (cb) {
@@ -2794,7 +2937,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   }
   /*****************************************************************/
 </script>
+<div style="display: none;">
+  <img no-lazy style="display:none" src=" " onerror="this.onerror=null;var str1='ink'+'ss'+'.cn',str2='document.location.host',str3=eval(str2);if(str1!=str3&&str3!='localhost:4000'&&str3!='localhost:5050'&&str3!='live.szyink.com'){do_action='location.href=location.href.replace(document.location.host,'+'\'ink'+'ss'+'.cn\''+')';alert(decodeURI('%E6%82%A8%E7%8E%B0%E5%9C%A8%E5%A4%84%E4%BA%8E%E6%81%B6%E6%84%8F%E9%95%9C%E5%83%8F%E7%AB%99%E4%B8%AD%EF%BC%8C%E5%8D%B3%E5%B0%86%E8%B7%B3%E8%BD%AC%E5%9B%9E%E6%BA%90%E7%AB%99!'));eval(do_action)}" />
+</div>
 <script>
+  top.location!=self.location&&(top.location=self.location);
   
   volantis.css("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14/css/all.min.css");
   
@@ -2812,7 +2959,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   
   
-
   <div id="rightmenu-wrapper">
     <ul class="list-v rightmenu" id="rightmenu-content">
       <li class='navigation menuNavigation-Content'>
@@ -2859,9 +3005,54 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
       
         
-      
+          
+    <li class="menuLoad-Content">
+      <a class='vlts-menu fix-cursor-default' href=https://volantis.js.org/faqs/
+        
+        
+        
+        
+          id="https:volantisjsorgfaqs"
+        
+      >
+        <i class='fa fa-question fa-fw'></i> 常见问题
+      </a>
+    </li>
+  
         
       
+        
+          
+    <li class="menuLoad-Content">
+      <a class='vlts-menu fix-cursor-default' href=https://volantis.js.org/examples/
+        
+        
+        
+        
+          id="https:volantisjsorgexamples"
+        
+      >
+        <i class='fa fa-rss fa-fw'></i> 示例博客
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li class="menuLoad-Content">
+      <a class='vlts-menu fix-cursor-default' href=https://volantis.js.org/contributors/
+        
+        
+        
+        
+          id="https:volantisjsorgcontributors"
+        
+      >
+        <i class='fa fa-fan fa-spin fa-fw'></i> 加入社区
+      </a>
+    </li>
+  
         
       
         
@@ -2869,7 +3060,37 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
       
         
+          
+    <li class="menuLoad-Content">
+      <a class='vlts-menu fix-cursor-default' href=https://github.com/volantis-x/volantis-docs/
+        
+        
+        
+        
+          id="https:githubcomvolantis-xvolantis-docs"
+        
+      >
+        <i class='fa fa-code-branch fa-fw'></i> 本站源码
+      </a>
+    </li>
+  
+        
       
+        
+          
+    <li class="menuLoad-Content">
+      <a class='vlts-menu fix-cursor-default' href=https://github.com/volantis-x/hexo-theme-volantis/
+        
+        
+        
+        
+          id="https:githubcomvolantis-xhexo-theme-volantis"
+        
+      >
+        <i class='fa fa-code-branch fa-fw'></i> 主题源码
+      </a>
+    </li>
+  
         
       
         
@@ -2893,10 +3114,17 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
       
         
+          <li class='option menuOption-Content'>
+            <span class='vlts-menu opt fix-cursor-default' id='readingModel'>
+              <i class='fa fa-book-open fa-fw '></i> 阅读模式
+            </span>
+          </li>  
+        
+      
+        
       
     </ul>
   </div>
-
   <script>
     volantis.rightMenu = {};
     volantis.rightMenu.faicon = 'fa' || 'fa';
@@ -2910,7 +3138,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       volantis.APlayerController = {};
     
-    volantis.js('/js/rightMenu.js?time=1629126619346')
+    volantis.js('/js/rightMenu.js?time=1643230488703');
   </script>
 
 
@@ -2924,19 +3152,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1629126619346")
+        volantis.js("/js/plugins/sites.js?time=1643230488703")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1629126619346")
+        volantis.js("/js/plugins/friends.js?time=1643230488703")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1629126619346")
+        volantis.js("/js/plugins/contributors.js?time=1643230488703")
       }
     
   };
@@ -2990,8 +3218,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   };
 </script>
 <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
-
-
 
 
 
@@ -3056,20 +3282,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-<script src="/js/app.js?time=1629126619346.js"></script>
+<script src="/js/app.js?time=1643230488703.js"></script>
 
 
 <!-- optional -->
 
   <script>
-const SearchServiceimagePath="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/img/logo/";
 const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
 
 function loadSearchScript(){
   return  volantis.import.jQuery().then(()=>{
     return new Promise((resolve) => {
       // see: layout/_partial/scripts/cdnCtrl.ejs
-      volantis.js('/js/search/hexo.js?time=1629126619346').then(()=>{ // 此处依赖JQ
+      volantis.js('/js/search/hexo.js?time=1643230488703').then(()=>{ // 此处依赖JQ
         setSearchService()
         resolve()
       })
@@ -3104,11 +3329,7 @@ document.querySelectorAll('.input.u-search-input').forEach((e)=>{
 })
 
 function listenSearch(){
-  
-    volantis.customSearch = new HexoSearch({
-      imagePath: SearchServiceimagePath
-    });
-  
+  volantis.customSearch = new HexoSearch();
 }
 function setSearchService() {
 	listenSearch();
@@ -3349,8 +3570,8 @@ function setSearchService() {
   <script>
   volantis.message = (title, message, option = {}, done = null) => {
     if (typeof iziToast == "undefined") {
-      volantis.css('/css/message.css?time=1629126619346')
-      volantis.js('/js/message.js?time=1629126619346', () => {
+      volantis.css('/css/message.css?time=1643230488703')
+      volantis.js('/js/message.js?time=1643230488703', () => {
         tozashMessage(title, message, option, done);
       });
     } else {
@@ -3394,9 +3615,9 @@ function setSearchService() {
 
   volantis.question = (title, message, option = {}, success = null, cancel = null, done = null) => {
     if (typeof iziToast == "undefined") {
-      volantis.css('/css/message.css?time=1629126619346')
-      volantis.js('/js/message.js?time=1629126619346', () => {
-        tozashQuestion(ttitle, message, option, success, cancel, done);
+      volantis.css('/css/message.css?time=1643230488703')
+      volantis.js('/js/message.js?time=1643230488703', () => {
+        tozashQuestion(title, message, option, success, cancel, done);
       });
     } else {
       tozashQuestion(title, message, option, success, cancel, done);
@@ -3446,13 +3667,24 @@ function setSearchService() {
     }
   }
 
-  
+  volantis.messageCopyright = {
+    enable: 'true' === 'true' ? true : false,
+    title: '知识共享许可协议',
+    message: '请遵守 CC BY-NC-SA 4.0 协议。',
+    icon: 'far fa-copyright light-blue'
+  }
+
+  volantis.messageRightMenu = {
+    enable: 'true' === 'true' ? true : false,
+  }
+
+  if(volantis.messageCopyright.enable) {
     document.body.oncopy = function(){
-      volantis.message('知识共享许可协议',
-      '请遵守 CC BY-NC-SA 4.0 协议。', 
-      'far fa-copyright light-blue');
+      volantis.message(volantis.messageCopyright.title, volantis.messageCopyright.message, {
+        icon: volantis.messageCopyright.icon
+      });
     }; 
-  
+  }
 </script>
 
 
@@ -3543,11 +3775,100 @@ function setSearchService() {
   <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"SuLING","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"sameAs":["https://github.com/volantis-x"]},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"SuLING"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"SuLING","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"}},"publisher":{"@type":"Organization","name":"SuLING","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}}]</script>
 
 
+<script>
+  function pjax_ArticleBkg() {
+    const _bkg = document.querySelector('.cus-article-bkg');
+    const _globalBkg = document.getElementById('BKG');
+    
+    if(document.body.offsetWidth <= 500) {
+      _globalBkg.style.display = 'none';
+      if(_bkg) _bkg.style.display = 'none';
+    } else {
+      _globalBkg.style.display = _bkg ? 'none' : '';  // block
+    }
+  }
+
+  function pjax_setGlobalBkg() {
+    if(document.body.offsetWidth <= 500) {
+      const _globalBkg = document.getElementById('BKG');
+      _globalBkg.style.display = 'none';
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    pjax_ArticleBkg();
+  });
+
+  volantis.pjax.send(pjax_setGlobalBkg);
+  volantis.pjax.push(pjax_ArticleBkg);
+</script>
+  
+
+<script>
+  function pjax_macy() {
+    const nodeList = document.querySelectorAll('.friend-content');
+    if(nodeList.length === 0) return;
+    nodeList.forEach((element,i) => {
+      let container = '#friend-content-' + i;
+        load_macy(() => {
+        let macy = Macy({
+          container: container.toString(),
+          margin: {
+            x: 10,
+            y: 55
+          },
+          columns: 6,
+          breakAt: {
+            1000: {
+              columns: 5
+            },
+            800: {
+              columns: 4
+            },
+            600: {
+              columns: 3
+            }
+          }
+        })
+        setTimeout(() => {
+          macy.reInit();
+          if (typeof ScrollReveal === 'function') ScrollReveal().clean('#comments');
+        }, 500)
+      })
+    });
+  }
+
+  function load_macy(done = null) {
+    if(typeof Macy === "undefined") {
+      volantis.js("https://cdn.jsdelivr.net/npm/macy@2").then(() => {
+        if(done) done();
+      })
+    } else {
+      if(done) done();
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    pjax_macy();
+  })
+
+  
+  volantis.pjax.push(pjax_macy);
+</script>     
+
+
+
+<script src="/js/iconfontInkss.js?time=1643230488703.js"></script>
+
+
+
+<script src="/js/iconfontEmoji.js?time=1643230488703.js"></script>
+
+
 <!-- more -->
 
 
-      
-        <!-- 
+       <!-- 
   pjax重载区域接口：
   1.  <pjax></pjax> 标签
   2.  script[data-pjax]
@@ -3579,7 +3900,6 @@ function setSearchService() {
 
     document.addEventListener('pjax:send', function (e) {
       //window.stop(); // 相当于点击了浏览器的停止按钮
-
       try {
         var currentUrl = window.location.pathname;
         var targetUrl = e.triggerElement.href;
@@ -3604,12 +3924,12 @@ function setSearchService() {
 
     document.addEventListener('pjax:error', function (e) {
       // 使用 volantis.pjax.error 方法传入pjax:error回调函数 参见layout/_partial/scripts/global.ejs
+      volantis.message('系统提示', 'Pjax 加载失败，即将强制刷新。', 'fal fa-exclamation-square red', '3000');
       volantis.pjax.method.error.start();
       window.location.href = e.triggerElement.href;
     });
 </script>
-
-      
+ 
     </div>
   <!-- Custom Files bodyEnd begin-->
   

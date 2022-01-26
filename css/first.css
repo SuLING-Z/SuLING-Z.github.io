@@ -27,21 +27,105 @@
   src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Monaco';
-  src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/Monaco/Monaco.ttf");
-  font-weight: 'normal';
-  font-style: 'normal';
-  font-display: swap;
 }
 @font-face {
   font-family: 'Varela Round';
   src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
-  font-display: swap;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-ExtraLight.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-ExtraLight-Italic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Light.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Light-Italic.woff2") format("woff2");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-SemiLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-SemiLight-Italic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMonoItalic;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Medium-Italic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-Bold-Italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-ExtraBold.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("https://cdn.jsdelivr.net/gh/inkss/inkss-cdn@1/fonts/jetbrains/JetBrainsMono-ExtraBold-Italic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+.new-meta-box,
+.article-title,
+.prev-next,
+.meta-v3,
+.md .footer .header,
+.widget header,
+details summary {
+  font-family: "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Helvetica, monospace;
 }
 :root {
   --site-bg: #f8f8f8;
@@ -79,18 +163,21 @@ body[theme='dark'] {
   --color-card: #fff;
   --color-text: #444;
   --color-block: #f6f6f6;
-  --color-inlinecode: #d56d28;
+  --color-inlinecode: #c74f00;
   --color-codeblock: #fff7ea;
-  --color-h1: #444;
-  --color-h2: #444;
-  --color-h3: #444;
+  --color-h1: #3a3a3a;
+  --color-h2: #3a3a3a;
+  --color-h3: #333;
   --color-h4: #444;
-  --color-h5: #444;
-  --color-h6: #444;
+  --color-h5: #555;
+  --color-h6: #666;
   --color-p: #444;
   --color-list: #666;
   --color-list-hl: #36ac91;
   --color-meta: #888;
+  --color-read-bkg: #e0d8c8;
+  --color-read-post: #f8f1e2;
+  --color-white-png: #fff;
 }
 * {
   box-sizing: border-box;
@@ -102,7 +189,7 @@ html {
   color: var(--color-text);
   width: 100%;
   height: 100%;
-  font-family: UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
   font-size: 16px;
 }
 html >::-webkit-scrollbar {
@@ -615,6 +702,7 @@ th {
   font-size: 3.125rem;
   line-height: 1.2;
   text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  text-align: center;
 }
 .cover-wrapper .cover-body .subtitle {
   font-size: 20px;
@@ -1050,7 +1138,7 @@ th {
 }
 .l_header .nav-sub .title {
   font-weight: bold;
-  font-family: UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
   line-height: 1.2;
   max-height: 64px;
   white-space: normal;
@@ -1325,7 +1413,6 @@ ul.list-v >li>a {
   display: block;
   color: var(--color-list);
   font-size: 0.875rem;
-  font-weight: bold;
   line-height: 36px;
   padding: 0 20px 0 16px;
   text-overflow: ellipsis;
@@ -1536,6 +1623,7 @@ ul.list-v >li>a:hover {
   .l_header #wrapper .switcher {
     display: flex;
     margin-right: 8px;
+    height: 64px;
   }
   .l_header .menu {
     display: none;
@@ -1880,4 +1968,68 @@ ul.list-v >li>a:hover {
   height: 100%;
   background: rgba(0,0,0,0.7);
   z-index: 1;
+}
+@media screen and (max-width: 2048px) {
+  .l_header {
+    left: 0 !important;
+    border-radius: 0 !important;
+    max-width: 100% !important;
+  }
+}
+article > p {
+  line-height: 2 !important;
+}
+@media screen and (max-width: 500px) {
+  #safearea {
+    margin: 0;
+    box-shadow: none;
+  }
+  #safearea .body-wrapper {
+    padding: 0;
+  }
+  #safearea #l_main article#comments,
+  #safearea #l_main article#friends,
+  #safearea #l_main article#post,
+  #safearea #l_main article#page,
+  #safearea #l_main article#arc {
+    border-radius: 0;
+  }
+  #safearea #l_main article#cat,
+  #safearea #l_main article#tag {
+    margin: 0;
+    border-radius: 0;
+  }
+  #safearea #l_main .post-wrapper {
+    margin: 0 0 16px;
+  }
+  #safearea #l_main .post-wrapper .post {
+    border-radius: 0;
+  }
+  #safearea #l_side .widget.mobile {
+    border-radius: 0;
+  }
+}
+.iconfont {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.iconfont.emoji {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.3em;
+}
+.rem1p5 {
+  font-size: 1.5rem;
+}
+.rem2 {
+  font-size: 2rem;
+}
+.rem6 {
+  font-size: 6rem;
+}
+.rem12 {
+  font-size: 12rem;
 }
